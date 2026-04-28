@@ -1,0 +1,60 @@
+/* Social Section Styling */
+.social-section {
+    padding: 80px 10% ;
+    text-align: center;
+    background: #0a0a0a;
+}
+
+.social-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.social-section p {
+    color: var(--text-dim);
+    margin-bottom: 40px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Facebook Specific Color */
+.social-btn.facebook {
+    background: #1877F2; /* Official Facebook Blue */
+}
+
+.social-btn.facebook:hover {
+    background: #145dbf;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(24, 119, 242, 0.3);
+}
+
+.social-btn.email {
+    background: #333;
+}
+
+.social-btn.email:hover {
+    background: #444;
+    transform: translateY(-5px);
+}
+
+.social-btn i {
+    font-size: 1.2rem;
+}
